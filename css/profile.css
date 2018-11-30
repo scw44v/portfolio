@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+body, html {
+	width: 100%; height: 100%; font-family: 'Anton', sans-serif;
+	background-color: #1b1464; color: #fff;
+}  
+.wrap {
+	width: 100%; height: 100%; position: relative; 
+	overflow: hidden; }
+nav > a {
+	color: #fff; position:absolute; right: 100px; top: 50px;
+}
+.about {
+	font-family:  'Noto Sans CJK KR'; margin:150px 500px;
+}
+.about > div > h1 {
+	font-size: 30px; font-weight: bold; text-decoration: underline;
+	margin: 20px 0;
+}
+.about > div > p {
+	font-size: 20px; margin-left: 10px;
+}
+.ps {
+	position:absolute; right: 500px; top: 180px;
+}
+.ps > p {
+	font-size: 16px; line-height: 22px;
+}
+table {
+	position: absolute; right: 500px; bottom: 230px;
+}
+table > caption {
+	text-align: left; font-size: 28px;
+	margin:10px 0;
+}
+table > tbody > tr > th {
+	font-size: 18px; text-align: left; padding: 10px 7px;
+}
+table > tbody > tr > td {
+	font-size: 15px; 
+}
+.pro {
+	font-size: 150px; left: 150px; position: absolute;
+	bottom: -50px; opacity: .5; color: #686868;
+}

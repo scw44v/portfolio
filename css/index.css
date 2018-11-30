@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+html, body {
+			width: 100%; height: 100%; font-family: 'Anton', sans-serif;
+		}
+		.wrap {
+			width: 100%; height: 100%; overflow: hidden;
+		}
+		header {
+			width: 100%; height: 18%; 
+			background-color: #000;
+			position: fixed; 
+		}
+		header > .name {
+			color: #fff; font-size: 21px; font-weight: bold;
+			position: absolute; bottom: 30px; left: 50px;
+		}
+		header > .p {
+			color: #fff; font-size: 14px; font-weight: bold;
+			position: absolute; bottom:30px; right:106px;
+			font-family: 'Space Mono', monospace;
+		}
+		nav {
+			position: absolute; top: 28px; right: 20px;
+		}
+		nav > a {
+			color: #fff;
+		}
+		article {
+			width: 100%; height: 82%; top: 18%;
+			position: relative;
+				}
+		article > .web > a {
+			width: 34%; height: 100%;
+			float: left;
+			font-size: 120px; color: #fff;
+			background-color:#0028b2;
+		}
+		article > .web > a >.circle {
+			margin-left: -54px; margin-top: 250px; overflow: hidden;
+		}
+		article > .video {
+			width: 33%; height: 50%;
+			background-color: #6115ff; float: left;
+		}
+		article > .contact {
+			width: 33%; height: 50%;
+			background-color: #fff; float: left;
+		}
+		article > .contact > ul li {
+			position:relative; z-index: 99999999;
+		}
+		article > .contact > img {
+			position: relative; margin: -100px 100px;
+		}
+		article > .profile {
+			width: 33%; height: 50%;
+			float: left;
+			font-size: 78px;
+			background-color:#1b1464;
+		}
+		article > .profile > a > ul {
+			margin: 50px 50px;
+		}
+		article > .profile > a > ul > .hi {
+			line-height:79px; color: #fff;
+		}
+		article > .profile > a > img {
+			position: absolute; bottom: 54%; opacity: 0;
+		}
+		article > .ui {
+			width: 33%; height: 50%;
+			background:url(../images/triangle2.png) no-repeat 35px 35px #fb0; float: left;
+			font-size: 72px;
+		}
+		.web > a >.p2 { position: absolute; top:50px; left: 50px; }
+		.profile > .p2 { position: relative; top:50px; left: 50px; }
+		.contact > .p2 { position: relative; top:50px; left: 50px; }
+		.ui > a > .p2 { position: relative; top:50px; left: 50px; color: #fff;}
+		.contact > ul {
+			position: relative; left: 50px; top: 110px;
+		}
+		.contact > ul > li {
+			margin-bottom: 35px; font-family: 'Space Mono', monospace;
+			font-size: 17px;
+		}
+		.contact > ul > .font { font-family: 'Noto Sans CJK KR'; }
+
+		.profile .arrow1 {
+			animation:ani linear 1.6s 0s infinite;
+		}
+		.profile img:nth-child(3) {
+			animation:ani linear 1.6s 0.5s infinite;
+		}
+		.profile img:nth-child(2) {
+			animation:ani linear 1.6s 1s infinite;
+		}
+
+		@keyframes ani {
+			0% { left:1300px; transform:scale(1); opacity:1;}
+			100% { left:1450px; transform:scale(1); opacity:0;}
+
+		}
+		.contact > img {
+			animation:slidein 1.5s linear 0s infinite alternate;
+		}
+		@keyframes slidein {
+			0% { transform: scaleX(0); }
+			100%   { transform: scaleX(1); }
+		}

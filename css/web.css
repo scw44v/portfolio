@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+html, body {
+	width: 100%; height: 100%; font-family: 'Anton', sans-serif;
+}
+.wrap {
+	width: 100%; height: 100%;
+}
+header {
+	width: 100%; height: 18%;
+	background-color: #000;
+	position: fixed; 
+}
+header > h1 {
+	font-size: 86px;
+	color: #fff; left: 50px; top:50px;
+	position: absolute;
+}
+nav {
+		position: absolute; top: 28px; right: 20px;
+}
+nav > a {
+		color: #fff;
+}
+.boxwrap {
+	width: 100%; height: 82%; top:18%; position: absolute;
+	background-color: #0028b2;
+}
+.boxwrap > .box1 {
+	width: 1200px; margin: 100px auto;
+	height: 350px; position: relative;
+}
+.boxwrap > .box1 > .bw {
+	width: 350px; height: 100%;
+	margin: 0 25px; float: left; background: #000; text-align: center;
+	position: relative; transition: 1s;
+}
+.boxwrap > .box1 > .bw > .box2 {
+	width: 100%; height: 100%; position: absolute;
+}
+.boxwrap > .box1 > .bw > .title {
+	transition: 1s; opacity: 0;
+}
+.boxwrap > .box1 > .bw > .title:hover {
+	opacity: 1;
+}
+/*************************** yachon ***************************/
+.boxwrap > .box1 > .bw > .yachon {
+	background: url(../images/yachonbox.jpg) no-repeat;
+}
+.boxwrap > .box1 > .bw > .title > a {
+	color: #fff; font-size: 100px; font-weight: bold; position: relative;
+	display: none; line-height: 350px;
+}
+.boxwrap > .box1 > .bw:hover .box2{
+	opacity: .3;
+}
+.boxwrap > .box1 > .bw:hover a{
+	display: block;
+}
+/****************************** miele ********************************/
+.boxwrap > .box1 > .bw > .miele {
+	background: url(../images/kitchen.jpg) no-repeat;
+	background-size: 100% 100%;
+}
