@@ -23,6 +23,16 @@ nav > a {
 		color: #fff;
 }
 article {
-	width: 100%; height: 82%; top:18%; position: relative;
-	background-color: #ffbb00;
+	width: 100%; height: 5218px; top:18%; position: relative;
+	background-color: #ffbb00; text-align: center;
 }
+article > div {
+	width: 180px; height: 40px; background-color: #111; padding: 10px 20px;
+	margin: 0 auto; line-height: 40px; position: relative;
+	bottom: 200px;
+}
+article > div > a {
+	text-decoration: none; color: #fff; font-size: 14px;
+	display: block;
+}
+
