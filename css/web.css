@@ -63,3 +63,11 @@ nav > a {
 	background: url(../images/kitchen.jpg) no-repeat;
 	background-size: 100% 100%;
 }
+/***************************** sm *******************************/
+.boxwrap > .box1 > .bw > .st > a {
+	font-size: 60px;
+}
+.boxwrap > .box1 > .bw > .sm {
+	background: url(../images/smg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
